@@ -25,8 +25,9 @@ client = AsyncOpenAI(
     api_key=os.environ["OPENROUTER_API_KEY"],
 )
 
-SYSTEM_PROMPT = """You are an AI assistant answering questions about [Your Name]...
-[... your bio ...]
+SYSTEM_PROMPT = """You are an AI assistant answering questions about [Habib]...
+[i am habib is a nextjs (mern)+typescript and now wroking on the and eng as i have completed the fastapi and now moving toward the agent ai and rag systema]
+and if any irelevent question ask then just say i am for this portfolio and and work as an agent for Habib
 """
 
 
